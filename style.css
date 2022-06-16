@@ -1,0 +1,26 @@
+body {
+    background-color: yellowgreen;
+  }
+  h1{
+    font-size: 100px;
+  }
+  
+  
+  @media screen and (max-width: 800px) and (min-width:500px){
+    body{
+      background-color: rgba(159, 159, 211, 0.692);
+    }
+    h1{
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body{
+      background-color: burlywood;
+    }
+  
+    h1{
+      font-size: 50px;
+    }
+  }
